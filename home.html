@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Book Bridge</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="home.css">
+  <script type="module" src="home.js" defer></script>
+</head>
+<body class="home-page">
+  <header>
+    <h1>📚 Book Bridge</h1>
+    <nav>
+      <a href="profile.html" class="btn">My Profile</a>
+      <a href="#" id="logout" class="btn">Logout</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search for books...">
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <section class="books">
+      <h3>Available Books</h3>
+      <ul id="bookList"></ul>
+    </section>
+
+    <section class="add-book">
+      <h3>List a Book</h3>
+      <input type="text" id="bookTitle" placeholder="Book Title">
+      <input type="text" id="bookAuthor" placeholder="Author">
+      <select id="bookType">
+        <option value="sell">For Sale</option>
+        <option value="donate">For Donation</option>
+        <option value="temporary">Temporary Donation</option>
+      </select>
+      <button id="addBook">Add Book</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Book Bridge. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* Home Page Styles */
+.home-page {
+  text-align: center;
+}
+
+.home-page .search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.home-page .search-bar input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.home-page .search-bar button {
+  padding: 10px 15px;
+  background-color: #6d28d9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.home-page .books {
+  padding: 20px;
+}
+
+.home-page .books ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-page .books ul li {
+  background: white;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.home-page .add-book {
+  padding: 20px;
+  background: white;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.home-page .add-book input, 
+.home-page .add-book select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.home-page .add-book button {
+  width: 100%;
+  background-color: #6d28d9;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-page .add-book button:hover {
+  background-color: #5b21b6;
+}
